@@ -1,0 +1,70 @@
+body{ margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgb(19, 3, 58);
+
+
+}
+
+#mycal {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d025f;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+
+}
+
+#display {
+    width: 100%;
+    padding: 2px;
+    text-align: left;
+    font-size: 5rem;
+    border: none;
+    background-color: rgba(3, 74, 115, 0.679);
+    color: aliceblue;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(36, 1, 53);
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: linear-gradient(rgb(157, 3, 157),rgb(64, 4, 142), rgb(153, 2, 55));
+
+}
+button:active{
+
+     background: linear-gradient(rgb(2, 28, 92),rgb(17, 65, 186), rgb(3, 65, 151));
+
+}
+
+#display:hover{
+    background-color: rgb(113, 14, 93);
+}
+.operator{
+    background: linear-gradient(rgb(121, 66, 7), rgb(133, 6, 6));
+
+}
+.operator:hover{
+   background: linear-gradient(rgb(1, 115, 117),rgb(0, 117, 189))
+}
+
